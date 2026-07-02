@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | Vamshi Auto Stores</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<style>
+
+.gallery-container{
+
+width:90%;
+margin:60px auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:25px;
+
+}
+
+.gallery-item{
+
+position:relative;
+
+overflow:hidden;
+
+border-radius:20px;
+
+box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+cursor:pointer;
+
+}
+
+.gallery-item img{
+
+width:100%;
+
+height:260px;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.gallery-item:hover img{
+
+transform:scale(1.1);
+
+}
+
+.overlay{
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:rgba(21,57,92,.75);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+opacity:0;
+
+transition:.4s;
+
+}
+
+.gallery-item:hover .overlay{
+
+opacity:1;
+
+}
+
+.overlay i{
+
+font-size:45px;
+
+color:white;
+
+}
+
+.hero-banner{
+
+margin-top:80px;
+
+background:#DCE7F3;
+
+padding:90px;
+
+text-align:center;
+
+}
+
+.hero-banner h1{
+
+font-size:52px;
+
+color:#15395c;
+
+}
+
+.hero-banner p{
+
+margin-top:15px;
+
+font-size:20px;
+
+color:#555;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<h2>Vamshi Auto Stores</h2>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="gallery.html" class="active">Gallery</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero-banner">
+
+<h1>Our Gallery</h1>
+
+<p>
+
+Explore our shop, products and quality spare parts.
+
+</p>
+
+</section>
+
+<section>
+
+<div class="gallery-container">
+
+<div class="gallery-item">
+
+<img src="images/gallery1.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery2.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery3.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery4.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery5.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery6.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery7.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery8.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/gallery9.jpg">
+
+<div class="overlay">
+
+<i class="fas fa-search-plus"></i>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section style="background:#15395c;color:white;padding:70px;text-align:center;">
+
+<h2 style="color:white;">
+
+Need Genuine Spare Parts?
+
+</h2>
+
+<p style="margin:20px 0;">
+
+Visit Vamshi Auto Stores today.
+
+</p>
+
+<a href="https://wa.me/917095145008"
+
+class="btn2">
+
+WhatsApp Now
+
+</a>
+
+</section>
+
+<footer>
+
+<h2>Vamshi Auto Stores</h2>
+
+<p>
+
+Karimnagar, Telangana
+
+</p>
+
+<p>
+
+Phone :
+
++91 70951 45008
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="https://wa.me/917095145008">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+<p>
+
+© 2026 Vamshi Auto Stores
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Vamshi Auto Stores</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<style>
+
+.contact-banner{
+
+margin-top:80px;
+padding:90px 20px;
+background:#DCE7F3;
+text-align:center;
+
+}
+
+.contact-banner h1{
+
+font-size:52px;
+color:#15395c;
+
+}
+
+.contact-wrapper{
+
+width:90%;
+max-width:1200px;
+margin:60px auto;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+
+}
+
+.contact-info{
+
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-info h2{
+
+margin-bottom:25px;
+
+}
+
+.info-box{
+
+display:flex;
+align-items:center;
+margin-bottom:25px;
+
+}
+
+.info-box i{
+
+font-size:30px;
+color:#15395c;
+width:55px;
+
+}
+
+.info-box div h3{
+
+margin-bottom:5px;
+
+}
+
+.contact-form{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:20px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:16px;
+
+font-family:Poppins;
+
+}
+
+.contact-form textarea{
+
+height:150px;
+
+resize:none;
+
+}
+
+.contact-form button{
+
+background:#15395c;
+
+color:white;
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:50px;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+iframe{
+
+width:90%;
+
+height:450px;
+
+display:block;
+
+margin:40px auto;
+
+border:none;
+
+border-radius:20px;
+
+}
+
+.business-hours{
+
+width:90%;
+
+max-width:1200px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:30px;
+
+}
+
+.hours{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.faq{
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.faq h3{
+
+margin-bottom:15px;
+
+}
+
+.faq p{
+
+margin-bottom:15px;
+
+line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+.contact-wrapper,
+.business-hours{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<h2>Vamshi Auto Stores</h2>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="contact.html" class="active">Contact</a></li>
+
+</ul>
+
+<div class="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="contact-banner">
+
+<h1>Contact Us</h1>
+
+<p>
+
+We're here to help you find the right spare parts.
+
+</p>
+
+</section>
+
+<div class="contact-wrapper">
+
+<div class="contact-info">
+
+<h2>Get In Touch</h2>
+
+<div class="info-box">
+
+<i class="fas fa-map-marker-alt"></i>
+
+<div>
+
+<h3>Address</h3>
+
+<p>Karimnagar, Telangana</p>
+
+</div>
+
+</div>
+
+<div class="info-box">
+
+<i class="fas fa-phone"></i>
+
+<div>
+
+<h3>Phone</h3>
+
+<p>+91 70951 45008</p>
+
+</div>
+
+</div>
+
+<div class="info-box">
+
+<i class="fab fa-whatsapp"></i>
+
+<div>
+
+<h3>WhatsApp</h3>
+
+<p>7095145008</p>
+
+</div>
+
+</div>
+
+<div class="info-box">
+
+<i class="fas fa-clock"></i>
+
+<div>
+
+<h3>Working Hours</h3>
+
+<p>Monday - Saturday</p>
+
+<p>9:00 AM - 8:00 PM</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="contact-form">
+
+<h2>Send Enquiry</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="tel" placeholder="Mobile Number">
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<iframe
+
+src="https://www.google.com/maps?q=Karimnagar&output=embed">
+
+</iframe>
+
+<section class="business-hours">
+
+<div class="hours">
+
+<h2>Business Hours</h2>
+
+<p>Monday : 9 AM - 8 PM</p>
+
+<p>Tuesday : 9 AM - 8 PM</p>
+
+<p>Wednesday : 9 AM - 8 PM</p>
+
+<p>Thursday : 9 AM - 8 PM</p>
+
+<p>Friday : 9 AM - 8 PM</p>
+
+<p>Saturday : 9 AM - 8 PM</p>
+
+<p>Sunday : Closed</p>
+
+</div>
+
+<div class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Do you sell genuine spare parts?</h3>
+
+<p>Yes. We deal in genuine Mahindra, Piaggio, Greaves and Ape spare parts.</p>
+
+<h3>Can I order through WhatsApp?</h3>
+
+<p>Yes, simply send your requirement to <strong>7095145008</strong>.</p>
+
+<h3>Do you provide bulk orders?</h3>
+
+<p>Yes, dealers and workshops are welcome.</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Vamshi Auto Stores</h2>
+
+<p>Karimnagar, Telangana</p>
+
+<p>Phone : +91 70951 45008</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="https://wa.me/917095145008">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+<p>
+
+© 2026 Vamshi Auto Stores
+
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
